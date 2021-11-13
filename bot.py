@@ -42,6 +42,7 @@ async def link_handler(bot, message):
             [
                 [
                     InlineKeyboardButton('𝕸𝖔𝖛𝖎𝖊 𝕮𝖍𝖆𝖓𝖓𝖊𝖑', url='https://t.me/trvpn')
+                    InlineKeyboardButton('Your Shorten Link', url=short_link)
                 ],
                 [
                     InlineKeyboardButton('𝕲-𝕯𝖗𝖎𝖛𝖊 𝕸𝖔𝖛𝖎𝖊 𝕮𝖍𝖆𝖓𝖓𝖊𝖑', url='https://t.me/tamilblasters_win')
