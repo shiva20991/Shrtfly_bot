@@ -5,8 +5,8 @@
         "telegram",
         "Shrtfly"
     ],
-    "website": "https://github.com/shiva2099/Shrtfly_bot",
-    "repository": "https://github.com/shiva2099/Shrtfly_bot",
+    "website": "https://github.com/shiva2099/Shrtfly-bot",
+    "repository": "https://github.com/shiva2099/Shrtfly-bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token",
