@@ -3,7 +3,9 @@ shrtfly_bot Telegram Bot
 
 HEROKU DEPLOY = <a href="https://heroku.com/deploy?template=https://github.com/shiva20991/Shrtfly_bot">
 
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">\
+  
+  
 
 Required Variables
 
