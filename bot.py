@@ -41,7 +41,7 @@ async def link_handler(bot, message):
         await message.reply(f'Here is your👉 [𝕾𝖍𝖔𝖗𝖙𝖋𝖑𝖞 𝖑𝖎𝖓𝖐🎈]({short_link}) \n\n 𝖄𝖔𝖚𝖗 𝕾𝖍𝖔𝖗𝖙𝖋𝖑𝖞 𝖑𝖎𝖓𝖐 = {short_link} \n\n 𝔒𝔲𝔯 𝔗𝔢𝔩𝔢𝔤𝔯𝔞𝔪 ℭ𝔥𝔞𝔫𝔫𝔢𝔩 ', quote=True,reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('𝕸𝖔𝖛𝖎𝖊 𝕮𝖍𝖆𝖓𝖓𝖊𝖑', url='https://t.me/trvpn')
+                    InlineKeyboardButton('𝕸𝖔𝖛𝖎𝖊 𝕮𝖍𝖆𝖓𝖓𝖊𝖑', url='https://t.me/trvpn'),
                     InlineKeyboardButton('Your Shorten Link', url=short_link)
                 ],
                 [
