@@ -5,7 +5,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY', '149df6668a4b13307d111264435213fa63a7a951')
+API_KEY = environ.get('API_KEY', '9cb4bd5502494531ca397429e90209097c51b4a8')
 
 bot = Client('Shrtfly_bot',
              api_id=API_ID,
@@ -55,7 +55,7 @@ async def link_handler(bot, message):
 
 
 async def get_shortlink(link):
-    url = 'https://shrtfly.com/api'
+    url = 'https://dulink.in/api'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
